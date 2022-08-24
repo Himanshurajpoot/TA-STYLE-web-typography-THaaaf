@@ -1,0 +1,246 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+/* coustom style */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Roboto+Slab:wght@400;600;700;800&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+font-size: 16px ;
+line-height: 1.5;
+}
+
+.container{
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 32px;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.font-size-56{
+    font-size: 56px;
+}
+
+.font-size-46{
+    font-size: 46px;
+}
+
+.font-size-30{
+    font-size: 30px;
+}
+
+.font-size-24{
+    font-size: 24px;
+}
+
+.font-size-20{
+    font-size: 20px;
+}
+
+.font-size-18{
+    font-size: 18px;
+}
+
+.text-white{
+    color: rgb(255,255,255);
+}
+
+.text-dark{
+   color: rgb(9,26,52); 
+}
+
+.text-light{
+    color: rgb(106,105,112);
+}
+
+.bg-color{
+    background-color: rgb(45,38,64);
+}
+
+.font-weigth-800{
+    font-weight: 800;
+}
+
+.brand-text-color{
+    color: rgb(45,38,64);
+}
+
+.margin-top-bottom-20{
+    margin: 20px 0;
+}
+
+a{
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+}
+
+p{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.padding{
+    padding: 60px;
+}
+
+hr{
+    width: 200px;
+    margin-left: 0;
+    margin-bottom: 50px;
+}
+
+.margin-bottom{
+    margin-bottom: 60px;
+}
+
+/* header  */
+
+.Top-nav a{
+    margin-left: 20px;
+    text-transform: uppercase;
+}
+
+/* hero-section */
+
+.width-40{
+    width: 40px;
+}
+
+.top-img{
+    margin-left: 100px;
+    margin-bottom: -120px;
+    margin-top:50px ;
+}
+
+
+
+.hero-col a{
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* about-article */
+
+.about-article{
+  margin: 150px 0 70px 0;
+
+}
+
+.about-col{
+    margin-left: 80px;
+}
+
+
+.about-article a{
+    display: inline-block ;
+    border: 1px solid  rgb(106,105,112);
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+/* article-1-2 */
+
+.col-1-2{
+    width: 25%;
+    margin-bottom: 40px;
+}
+
+.bottom-col-1-2 a{
+    border: 1px solid rgb(255,255,255);
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.icon{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color:cornflowerblue;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
+
+/* footer */
+
+.footer nav a{
+    margin-left: 30px;
+}
+
+.border-bottom{
+    border-bottom: 2px solid rgb(106,105,112);
+}
+
+.footer-bottom-nav{
+    text-align: center;
+    
+}
+
+.footer small{
+    width: 100%;
+  display: inline-block;
+  text-align: center;
+  padding: 20px 0;
+  font-family: 'Open Sans', sans-serif;
+}
